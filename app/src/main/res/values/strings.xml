@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Places Finder</string>
+    <string name="search">Search</string>
+    <string name="results">Results...</string>
+    <string name="google_maps_key">AIzaSyD6c2kboyoJPltS9Q37cwg7audDIb5-2ms</string>
+
+    <string-array name="spinner_array">
+        <item>English</item>
+        <item>Hebrew</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="version_number">Version 1.0</string>
+</resources>

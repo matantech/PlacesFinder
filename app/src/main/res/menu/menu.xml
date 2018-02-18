@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity">
+    <item
+            android:id="@+id/action_settings"
+            android:title="settings"
+            android:orderInCategory="1"
+            android:icon="@mipmap/setting_icon"
+            app:showAsAction="always" />
+    <item
+            android:id="@+id/action_home"
+            android:title="home"
+            android:orderInCategory="1"
+            android:icon="@mipmap/home_icon"
+            app:showAsAction="always"   />
+    <item
+            android:id="@+id/action_favourits"
+            android:title="favourits"
+            android:orderInCategory="1"
+            android:icon="@mipmap/favourits_icon"
+            app:showAsAction="always" />
+
+
+</menu>

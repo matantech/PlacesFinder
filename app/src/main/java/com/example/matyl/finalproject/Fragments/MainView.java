@@ -140,21 +140,6 @@ public class MainView extends Fragment {
             }
         });
 
-
-
-
-        /*for(PlaceModel place :getPlaces())
-        {
-            if (place.getName().toLowerCase().contains(searchText) || searchText.equals("")) {
-                places.add(place);
-            }
-
-
-        }*/
-
-
-
-
     }
 
     public void changeToEnglish()
@@ -167,18 +152,6 @@ public class MainView extends Fragment {
     {
         language = "iw";
     }
-
-
-   /* private ArrayList<PlaceModel> getPlaces()
-    {
-        ArrayList<PlaceModel> placesNew = new ArrayList<>();
-        placesNew.add(new PlaceModel("haifa",R.mipmap.place_navigation_icon,123,123,123));
-        placesNew.add(new PlaceModel("Tel-Aviv",R.mipmap.place_navigation_icon,123,123,123));
-        placesNew.add(new PlaceModel("Jerusalem",R.mipmap.place_navigation_icon,123,123,123));
-        placesNew.add(new PlaceModel("Eilat",R.mipmap.place_navigation_icon,123,123,123));
-        return placesNew;
-
-    }*/
 
 
 }
